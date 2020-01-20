@@ -74,6 +74,8 @@ registerSingleton(ITelemetryService, TelemetryService);
 /**
  * This is called by vs/workbench/browser/web.main.ts after the workbench has
  * been initialized so we can initialize our own client-side code.
+ *
+ * Added text
  */
 export const initialize = async (services: ServiceCollection): Promise<void> => {
 	const target = window as any;
