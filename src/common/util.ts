@@ -1,6 +1,8 @@
 /**
  * Split a string up to the delimiter. If the delimiter doesn't exist the first
  * item will have all the text and the second item will be an empty string.
+ *
+ * here also
  */
 export const split = (str: string, delimiter: string): [string, string] => {
 	const index = str.indexOf(delimiter);
